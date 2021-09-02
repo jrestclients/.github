@@ -1,0 +1,6 @@
+{
+    "name": "Run test on pull-requests",
+    "description": "JRestClients Organization Run test on pull-requests",
+    "iconName": "prTest",
+    "categories": ["gradle"]
+}
