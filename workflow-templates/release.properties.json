@@ -1,0 +1,6 @@
+{
+    "name": "Release",
+    "description": "JRestClients Organization Release to Maven Central Flow",
+    "iconName": "release",
+    "categories": ["gradle"]
+}
