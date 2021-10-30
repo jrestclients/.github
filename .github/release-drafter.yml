@@ -13,7 +13,6 @@ categories:
   - title: 🎉 Major features and improvements
     labels:
       - major-enhancement
-      - major-rfe
   - title: 🐛 Major bug fixes
     labels:
       - major-bug
@@ -51,6 +50,32 @@ exclude-labels:
   - no-changelog
   - skip-changelog
   - invalid
+
+version-resolver:
+  major:
+    labels:
+      - 'major'
+      - 'breaking'
+      - 'removed'
+      - 'deprecated'
+  minor:
+    labels:
+      - 'minor'
+      - 'feature'
+      - 'major-enhancement'
+      - 'enhancement'
+  patch:
+    labels:
+      - 'patch'
+      - 'major-bug'
+      - 'bug'
+      - 'bugfix'
+      - 'fix'
+      - 'developer'
+      - 'internal'
+      - 'test'
+      - 'tests'
+  default: patch
 
 template: |
   <!-- Optional: add a release summary here -->
